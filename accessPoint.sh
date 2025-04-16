@@ -12,6 +12,7 @@ function check_figlet {
         echo "figlet no funciona correctamente, instalando..."
         sudo apt install --reinstall -y figlet 
     fi
+    sudo apt install hostapd dnsmasq -y
     echo "Paquetes instalados. Continuando..."
     sleep 2
 }
